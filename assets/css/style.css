@@ -1010,3 +1010,5 @@ html:not([data-provisional="true"]) .sample__photo .chip { display: none; }
   .hero__sub { font-size: 0.98rem; }
   .qchip span { font-size: 0.78rem; }
 }
+.footer__logo { display: inline-block; }
+.footer__logo:hover { text-decoration: none; opacity: 0.85; }
