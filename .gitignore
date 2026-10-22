@@ -1,0 +1,22 @@
+# Client data with personal information (birth date, home address, revenue).
+# Keep it out of the public repository.
+Briefing_JL_Signature_Flooring.md
+
+# Temporary design-review captures and local tool state
+.impeccable/review/
+.impeccable/questions/
+.impeccable/build/
+.impeccable/mocks/
+.impeccable/config.local.json
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.tmp
+_*.js
+
+# Dependencies (none today, just in case)
+node_modules/
+.impeccable/hook.cache.json

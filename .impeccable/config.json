@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "assets/css/style.css"
+        ],
+        "createdAt": "2026-10-22T12:33:35.525Z",
+        "reason": "agent: .threshold parquet seam band is the brand's plank material (logo parquet), deliberate"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-22T12:33:35.969Z",
+        "reason": "agent: static check misses .wrap gutters inside full-bleed sections and tab padding; verified in rendered screenshots"
+      }
+    ]
+  }
+}

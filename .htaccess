@@ -1,0 +1,77 @@
+# JL Signature Flooring - Apache config
+# Test environment: http://jl.escolats.com.br/
+# When going live on jlsignatureflooring.com: remove the "TEST ENVIRONMENT" block
+# and uncomment the HTTPS block.
+
+Options -Indexes
+DirectoryIndex index.html
+AddDefaultCharset UTF-8
+
+# ---------- TEST ENVIRONMENT: keep search engines out ----------
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow"
+</IfModule>
+
+# ---------- HTTPS + canonical host (enable on the live domain) ----------
+# <IfModule mod_rewrite.c>
+#   RewriteEngine On
+#   RewriteCond %{HTTPS} off
+#   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#   RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+#   RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+# </IfModule>
+
+# ---------- Hide project files that should never be public ----------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # dotfiles and dot-folders (.impeccable, .git...), except .well-known
+  RewriteRule "(^|/)\.(?!well-known/)" - [F,L]
+  # notes, briefs, image provenance sidecars, source logos
+  RewriteRule "\.(md|webp\.json|png\.json|jpg\.json)$" - [F,L,NC]
+  RewriteRule "^Logos/" - [F,L,NC]
+</IfModule>
+
+# ---------- MIME types ----------
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+  AddType image/svg+xml .svg
+  AddType application/xml .xml
+  AddType text/plain .txt
+</IfModule>
+
+# ---------- Compression ----------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/xml application/javascript text/javascript application/json image/svg+xml
+</IfModule>
+
+# ---------- Caching ----------
+# File names are not versioned, so CSS and JS keep a short cache.
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 hour"
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType text/javascript "access plus 7 days"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType application/xml "access plus 1 day"
+  ExpiresByType text/plain "access plus 1 day"
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(webp|png|jpe?g|svg)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+
+  # ---------- Security headers ----------
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
+</IfModule>

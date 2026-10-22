@@ -1,0 +1,8 @@
+# Test environment (jl.escolats.com.br): do not index.
+User-agent: *
+Disallow: /
+
+# When going live on jlsignatureflooring.com, replace everything above with:
+# User-agent: *
+# Allow: /
+# Sitemap: https://jlsignatureflooring.com/sitemap.xml
