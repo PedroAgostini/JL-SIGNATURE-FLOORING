@@ -8,6 +8,7 @@ Briefing_JL_Signature_Flooring.md
 .impeccable/build/
 .impeccable/mocks/
 .impeccable/config.local.json
+.impeccable/photo-curation/
 
 # OS and editor files
 .DS_Store

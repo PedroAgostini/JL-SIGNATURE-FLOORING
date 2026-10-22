@@ -11,27 +11,27 @@
     lvp: { code: 'No. 01', title: 'LVP Flooring', form: 'LVP Flooring',
       text: '100% waterproof luxury vinyl plank installation ideal for high-traffic areas and busy households.',
       best: 'Kitchens, basements, mudrooms and homes with kids or pets.',
-      img: 'assets/img/empty-room-lvp.webp', alt: 'Open kitchen with wood-look luxury vinyl plank floor' },
+      img: 'assets/img/projects/jl-signature-wood-look-floor-bright-open-room.webp', alt: 'Wood-look plank floor in a bright empty room with wood-trimmed windows' },
     laminate: { code: 'No. 02', title: 'Laminate Flooring', form: 'Laminate Flooring',
       text: 'Budget-friendly and impact-resistant laminate installations offering authentic hardwood aesthetics.',
       best: 'Bedrooms, living areas and rentals.',
-      img: 'assets/img/living-laminate.webp', alt: 'Living room with laminate floor' },
+      img: 'assets/img/illustrative/jl-signature-laminate-oak-bright-room-ai.webp', alt: 'Illustrative image of oak-look laminate in a clean bright room' },
     hardwood: { code: 'No. 03', title: 'Hardwood Installation (Solid & Engineered)', form: 'Hardwood Installation',
       text: 'Authentic solid and engineered wood floors that bring timeless character and real estate value.',
       best: 'Living rooms, dining rooms and bedrooms.',
-      img: 'assets/img/living-hardwood.webp', alt: 'Living room with hardwood floors' },
+      img: 'assets/img/projects/jl-signature-light-oak-floor-blue-dining-room.webp', alt: 'Light oak floor in a blue dining room with white wainscoting' },
     refinish: { code: 'No. 04', title: 'Hardwood Floor Refinishing', form: 'Hardwood Floor Refinishing',
       text: 'Complete surface sanding, color restaining, and protective clear coating for aging hardwood.',
       best: 'Scratched, faded or dull hardwood that is still solid underneath.',
-      img: 'assets/img/herringbone-gloss.webp', alt: 'Glossy refinished herringbone hardwood' },
+      img: 'assets/img/projects/jl-signature-oak-floor-living-room-daylight.webp', alt: 'Brown oak floor in a furnished living room with natural daylight' },
     stairs: { code: 'No. 05', title: 'Custom Stairs', form: 'Custom Stairs',
       text: 'Custom tread and riser installations creating seamless transitions between your home levels.',
       best: 'Matching your stairs to new floors upstairs and down.',
-      img: 'assets/img/staircase.webp', alt: 'Staircase with wood treads' },
+      img: 'assets/img/illustrative/jl-signature-stairs-oak-white-risers-ai.webp', alt: 'Illustrative image of oak stair treads with white risers' },
     trim: { code: 'No. 06', title: 'Baseboards & Trim', form: 'Baseboards & Trim',
       text: 'Crisp baseboards, quarter round, and shoe molding that deliver a complete architectural border.',
       best: 'Finishing any new floor, or refreshing tired trim.',
-      img: 'assets/img/floor-wall.webp', alt: 'Light wood floor meeting a white wall' }
+      img: 'assets/img/projects/jl-signature-wood-look-floor-white-baseboards.webp', alt: 'Wood-look plank floor with white baseboards in a clean gray room' }
   };
   var ORDER = ['lvp', 'laminate', 'hardwood', 'refinish', 'stairs', 'trim'];
   var current = 'hardwood';
