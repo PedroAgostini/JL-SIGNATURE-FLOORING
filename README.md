@@ -77,7 +77,7 @@ A direção visual, chamada **Parquet Grid**, nasce da própria logo: o losango 
 3. **Services:** 6 serviços em cards com foto
 4. **Which Floor Fits Your Home?:** comparativo de LVP, laminate e hardwood
 5. **Our Work:** mosaico com fotos de projetos reais
-6. **Sample Reviews:** exemplos ilustrativos, identificados na página como fictícios, até entrarem avaliações verificadas
+6. **What Our Customers Say:** carrossel contínuo em loop com trechos das 16 avaliações de 5 estrelas com comentário, conferidas no Google Maps em 23/10/2026; nomes e links individuais em `docs/google-reviews.json`. Sem barra de controles, com arraste por mouse/toque, navegação por teclado e respeito à preferência de movimento reduzido.
 7. **Why Choose Us:** diferenciais e o 3D do processo
 8. **How It Works:** os 3 passos até o piso novo
 9. **FAQ:** dúvidas frequentes
