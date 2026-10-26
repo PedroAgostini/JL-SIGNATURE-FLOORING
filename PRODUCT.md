@@ -39,7 +39,7 @@ Undecided / pending (do not publish): street address and ZIP, license and liabil
 ## Brand Commitments
 
 - Name: JL Signature Flooring ("JL" = José and Larissa).
-- Logo assets in `Logos/`: serif JL monogram with a gold parquet diamond, "Signature" in a high-contrast serif, "FLOORING" in a wide tracked geometric sans. Colors: black and metallic gold gradient. No green.
+- Logo (new, Oct 2026) in `Logos-new/`: serif JL monogram beside a parquet diamond with a ruler, and "SIGNATURE FLOORING LLC" in wide geometric caps. Flat gold, plus all-white and all-black versions; icon, wordmark and stacked lockup. The previous logo was retired. No green.
 - Tone: professional, direct, close. An organized, trustworthy American company, never corporate or artificial. English only.
 - Copy source: `ONE PAGE - JL SIGNATURE FLOORING.md` (structure and headlines are binding; new sections allowed).
 - No em dashes, no AI-sounding filler.

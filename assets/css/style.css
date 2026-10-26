@@ -1023,3 +1023,20 @@ html:not([data-provisional="true"]) .sample__photo .chip { display: none; }
 }
 .footer__logo { display: inline-block; }
 .footer__logo:hover { text-decoration: none; opacity: 0.85; }
+
+/* ---------- new logo (Oct 2026): icon + wordmark lockup ---------- */
+.lockup { display: inline-flex; align-items: center; gap: 12px; }
+.lockup img { display: block; width: auto; }
+.brand .lockup__icon { height: 44px; }
+.brand .lockup__text { height: 34px; }
+.drawer__top .lockup__icon { height: 38px; }
+.drawer__top .lockup__text { height: 30px; }
+.footer__logo img { height: clamp(104px, 9vw, 132px); width: auto; }
+.mark::before { aspect-ratio: 1734 / 1230; width: clamp(360px, 44vw, 700px); }
+.footer.mark::before { width: clamp(320px, 34vw, 540px); }
+@media (max-width: 920px) {
+  .brand .lockup__icon { height: 36px; }
+  .brand .lockup__text { height: 28px; }
+  .lockup { gap: 10px; }
+  .mark::before { width: 82vw; }
+}

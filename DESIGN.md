@@ -194,7 +194,7 @@ A strict three-material ink set: black lacquer, gold leaf, white oak, plus the w
 **Body Font:** Albert Sans (with Segoe UI, system-ui, sans-serif)
 **Label Font:** Albert Sans, uppercase, wide tracked
 
-**Character:** A high-contrast single-weight serif with the confidence of the logo's "Signature", over a clean geometric sans that echoes the logo's tracked "FLOORING". Gloock is never bolded; Albert Sans does all the weight work at 600.
+**Character:** A high-contrast single-weight serif with the confidence of the logo's serif JL monogram, over a clean geometric sans that echoes the logo's tracked "FLOORING". Gloock is never bolded; Albert Sans does all the weight work at 600.
 
 ### Hierarchy
 - **Display** (Gloock 400, clamp(2.6rem, 1.3rem + 3vw, 4.4rem) on desktop, 2.2 to 2.7rem under 560px, 1.02): the hero headline only, with key service words in soft gilt.

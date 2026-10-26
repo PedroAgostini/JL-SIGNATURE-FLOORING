@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo/mark.webp" alt="JL Signature Flooring" width="96">
+<img src="assets/logo/logo-stacked-gold.webp" alt="JL Signature Flooring LLC" width="150">
 
 # JL Signature Flooring
 
@@ -94,7 +94,7 @@ A direção visual, chamada **Parquet Grid**, nasce da própria logo: o losango 
 | `--bone` | `#f4ede1` | Texto sobre fundo escuro |
 | `--ink` | `#17120d` | Texto sobre fundo claro |
 
-**Tipografia:** [Gloock](https://fonts.google.com/specimen/Gloock) nos títulos (serifa de alto contraste, parente do "Signature" da logo) e [Albert Sans](https://fonts.google.com/specimen/Albert+Sans) nos textos e rótulos. O ícone da logo aparece como marca d'água em About, Why Choose Us, Reviews, FAQ e no rodapé.
+**Tipografia:** [Gloock](https://fonts.google.com/specimen/Gloock) nos títulos (serifa de alto contraste, parente do monograma JL da logo) e [Albert Sans](https://fonts.google.com/specimen/Albert+Sans) nos textos e rótulos. O ícone da logo aparece como marca d'água em About, Why Choose Us, Reviews, FAQ e no rodapé.
 
 O sistema completo (cores, tipografia, componentes e movimento) está documentado em [`DESIGN.md`](DESIGN.md).
 
@@ -111,7 +111,7 @@ O sistema completo (cores, tipografia, componentes e movimento) está documentad
 │   ├── img/illustrative/       # 2 imagens ilustrativas geradas por IA (sinalizadas)
 │   ├── img/                    # textura de carvalho e arquivos provisórios antigos (sem uso)
 │   └── logo/                   # versões da logo usadas no site
-├── Logos/                      # arquivos originais da marca
+├── Logos-new/                  # logo atual (out/2026): ícone, nome e versão empilhada
 ├── docs/
 │   ├── FOTOS-CURADORIA.md      # critérios e seleção das fotos
 │   ├── fotos-catalogo.html     # catálogo visual das fotos analisadas

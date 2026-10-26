@@ -28,7 +28,7 @@ AddDefaultCharset UTF-8
   RewriteRule "(^|/)\.(?!well-known/)" - [F,L]
   # notes, briefs, image provenance sidecars, source logos
   RewriteRule "\.(md|webp\.json|png\.json|jpg\.json)$" - [F,L,NC]
-  RewriteRule "^Logos/" - [F,L,NC]
+  RewriteRule "^Logos(-new)?/" - [F,L,NC]
 </IfModule>
 
 # ---------- MIME types ----------
