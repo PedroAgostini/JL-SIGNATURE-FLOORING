@@ -978,8 +978,8 @@ html:not([data-provisional="true"]) .sample__photo .chip { display: none; }
   background: center / contain no-repeat;
   transform: translateY(-50%) rotate(-8deg);
 }
-.mark--dark::before { background-image: url("../logo/icon-white.webp"); opacity: 0.045; }
-.mark--light::before { background-image: url("../logo/icon-black.webp"); opacity: 0.04; }
+.mark--dark::before { background-image: url("../logo/watermark-jl-white.webp"); opacity: 0.045; }
+.mark--light::before { background-image: url("../logo/watermark-jl-black.webp"); opacity: 0.04; }
 .mark--right::before { right: -7%; }
 .mark--left::before { left: -7%; transform: translateY(-50%) rotate(8deg); }
 #why.mark::before { top: clamp(260px, 30vw, 420px); }
